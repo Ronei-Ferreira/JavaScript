@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NACIONALIDADE</title>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Nacionalidade <input name="txtvel" id="txtvel"> país
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="Brasil">
+    
+    </div>
+
+       <script>
+        function nacionalidade() {
+         var txtv = window.document.getElementById('txtvel')
+         var Brasil = window.document.getElementById('Brasil')
+        
+         Brasil.innerHTML = (`Vivendo em ${país}`)
+         if (país > Brasil) {
+         res.innerHTML += `<p>Você não é Brasileito</p>
+         }
+        }
+    </script>
+    
+</body>
+</html>

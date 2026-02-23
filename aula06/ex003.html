@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa</title>
+    <style>
+        body {
+            background-color: rgb(94, 94, 175);
+            color: white;
+            font: normal 20pt Arial;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá mundo!</h1>
+    <p>Me livrei da maldição</p>
+
+    <script>
+        var n1 = Number(window.prompt('Digite um numero: '))// recebe valor strig (temos que converter para number)
+        var n2 = Number(window.prompt('Digite outro numero: ')) // recebe valor string (temos que converter para number)
+        var s = n1 + n2
+        window.alert(`A soma de ${n1} e ${n2} é igual a ${s}`)
+
+
+        // (number + number) para adição
+        // (string + string) para concatenação
+        // O java script confubde o sinal pois ele tem estas duas funções acima e o comando window.prompt sentre retorna como uma string, ou seja uma concatenação e não soma.
+        //para converter de strig para number existe varias opções, mais as principais são 3. Veja duas abaixo
+        //NumberparseInt(n) para numeros inteiros (pode usar apenas parseInt) N I maiusculos
+        //Number.parseFloat(n) para numeros com virgula ou ponto (pode usar somente parseFloat)  N F maiusculos
+
+    </script>
+</body>
+</html>
