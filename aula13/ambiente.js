@@ -7,13 +7,14 @@ do {
 
 
 
-/* estrutura de repetição com teste lógico no inicio*/
+/* estrutura de repetição com teste lógico no inicio 
 
-/*var c = 1
-while (c <= 30) {  /*testa primeiro*/
-    /*console.log(`Passo ${c}`)  /*execulta depois*/
-   /* c++
-}/*
+var c = 1
+while (c <= 30) {       testa primeiro
+    
+console.log(`Passo ${c}`)   execulta depois
+   c++
+} */
 
 
 
@@ -33,9 +34,7 @@ console.log('tudo bem?')
 
 /* estrutura de repetição com teste lógico no inicio*/
 /*var c = 1
-while (c <= 30) {  /*testa primeiro*/
-    /*console.log(`Passo ${c}`)  /*execulta depois*/
-   /* c++
-}/*
-
-
+while (c <= 30) {    testa primeiro
+    console.log(`Passo ${c}`)  execulta depois
+    c++
+} */
