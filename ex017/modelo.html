@@ -3,25 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vamos Contar</title>
+    <title>Tabuada</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Vamos contar</h1>
+        <h1>Tabuada</h1>
 
     </header>
 
     <section>
-        <div> Inicio: <input name="txtvel"> </div>
+        <div>
+            <p>Número <input type="Number" name="num" id="txtn">
+            <input type="button" value="Gerar Tabuada" onclick="tabuada()"></p>
+        </div>
 
-        <div> Fim: <input name="txtvel"> </div>
-
-        <div> Passo: <input name="txtvel"> </div>
-          
-          <input type="button" value="Contar" >
-
-         <p>Contando: </p>
+        <div>
+            <select name="tabuada" id="seltab" size="10">
+                <option> Dígite um número acima</option>
+ 
+            </select>
+        </div>
+        
     </section>
    
   
@@ -30,6 +33,8 @@
         <p>&copy; Curso em Video</p>
 
     </footer>
+
+      <script src="script.js"></script>
    
     
 </body>

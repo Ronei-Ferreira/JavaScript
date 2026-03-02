@@ -15,9 +15,9 @@ section {
     background: white;
     border-radius: 10px;
     padding: 10px;
-    margin: 20%;
-    width: 400px;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.505);   
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.505);    
 }
 
 div {
